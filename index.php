@@ -16,10 +16,7 @@
 
   <body>
     <?php
-      $servername = "localhost";
-      $username = "knowledge27";
-      $password = "knowledge27";
-      $dbname = "jaxcode19";
+      include '/home/knowledge27/.function.php';
 
       // Create connection
       $conn = new mysqli($servername, $username, $password, $dbname);
